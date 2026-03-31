@@ -2,14 +2,18 @@ h1,
 h2,
 h3,
 hr {
-    color: white
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 p {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', Courier, monospace;
 }
-
+p::first-letter {
+    font-size: 200%;
+}
 a {
     color: red;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,13 +30,13 @@ th,
 td,
 caption {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', Courier, monospace;
     border: 1px solid whitesmoke;
 }
 
 li {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', Courier, monospace;
 }
 
 header p::first-letter {
@@ -48,15 +52,15 @@ header {
 }
 
 footer {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 70%;
+    font-family: 'Courier Prime', Courier, monospace;
+    font-size: 11px;
     text-align: center;
 }
 
 table {
     margin-left: auto;
     margin-right: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier Prime', Courier, monospace;
     border-collapse: collapse;
 }
 
@@ -69,7 +73,6 @@ ul {
 body {
     background: black;
     min-height: 100vh;
-    font-family: sniglet;
     font-weight: 400;
     font-style: normal;
     text-align: center;
@@ -77,6 +80,9 @@ body {
 }
 
 Form {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier Prime', Courier, monospace;
     color: white;
+}
+.cinza {
+    color: gray;
 }

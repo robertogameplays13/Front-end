@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/trabalhofodao.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
 </head>
 
 <body>
@@ -19,7 +22,7 @@
     <nav>
         <ul>
             <li><a href="#highlow">Alta e Baixa Fantasia</a></li>
-            <li><a href="#subgeneros">Subgêneros de Baixa Fantasia</a></li>
+            <li><a href="#subgeneros" class="cinza">Subgêneros de Baixa Fantasia</a></li>
             <li><a href="#tabela">Tabela de Exemplos</a></li>
             <li><a href="#questionario">Questionário</a></li>
         </ul>
@@ -43,41 +46,45 @@
     <h3 id="subgeneros">Subgêneros de Baixa Fantasia</h3>
     <ol>
         <li>Fantasia Urbana: A magia e o sobrenatural coexistem com a vida moderna, muitas vezes em cidades
-            contemporâneas. Exemplo: "Harry Potter" de J.K. Rowling. <br> <a href="https://pt.wikipedia.org/wiki/Harry_Potter" target="_blank">
-            <img src="img/harrypotter.jpeg" alt="Harry Potter" width="150">
-        </a></li>
+            contemporâneas. Exemplo: "Harry Potter" de J.K. Rowling. <br> <a
+                href="https://pt.wikipedia.org/wiki/Harry_Potter" target="_blank">
+                <img src="img/harrypotter.jpeg" alt="Harry Potter" width="150">
+            </a></li>
         <li>Fantasia Histórica: Elementos fantásticos são inseridos em um cenário histórico real. Exemplo: "Jonathan
-            Strange & Mr Norrell" de Susanna Clarke.<br><a href="https://en.wikipedia.org/wiki/Jonathan_Strange_&_Mr_Norrell" target="_blank">
-            <img src="img/jonathanstrange.jpeg" alt="Jonathan Strange" width="150">
-        </a></li>
+            Strange & Mr Norrell" de Susanna Clarke.<br><a
+                href="https://en.wikipedia.org/wiki/Jonathan_Strange_&_Mr_Norrell" target="_blank">
+                <img src="img/jonathanstrange.jpeg" alt="Jonathan Strange" width="150">
+            </a></li>
         <li>Fantasia Mitológica: Incorpora mitos e lendas de diversas culturas, muitas vezes reimaginando deuses, heróis
             e criaturas míticas.
-            Exemplo: "Percy Jackson & the Olympians" de Rick Riordan.<br><a href="https://pt.wikipedia.org/wiki/Percy_Jackson" target="_blank">
-            <img src="img/percyjackson.jpg" alt="Percy Jackson" width="150">
-        </a></li>
-    <li>Fantasia de Horror: Combina elementos de fantasia com horror, criando uma atmosfera sombria e assustadora.
+            Exemplo: "Percy Jackson & the Olympians" de Rick Riordan.<br><a
+                href="https://pt.wikipedia.org/wiki/Percy_Jackson" target="_blank">
+                <img src="img/percyjackson.jpg" alt="Percy Jackson" width="150">
+            </a></li>
+        <li>Fantasia de Horror: Combina elementos de fantasia com horror, criando uma atmosfera sombria e assustadora.
             Exemplo: "It" de Stephen King.<br><a href="https://pt.wikipedia.org/wiki/It_(romance)" target="_blank">
-            <img src="img/it.jpeg" alt="It" width="150">
-        </a></li>
+                <img src="img/it.jpeg" alt="It" width="150">
+            </a></li>
         <li>Fantasia de Ficção Científica: Combina elementos de fantasia com tecnologia avançada ou cenários futuristas.
             Exemplo: "Star Wars" de George Lucas.<br><a href="https://pt.wikipedia.org/wiki/Star_Wars" target="_blank">
-            <img src="img/starwars.jpg" alt="Star Wars" width="150">
-        </a></li>
+                <img src="img/starwars.jpg" alt="Star Wars" width="150">
+            </a></li>
 
         <li>Fantasia Sombria: Dark Fantasy (ou fantasia sombria) é um subgênero que mescla elementos mágicos da fantasia
             tradicional com o horror, temas góticos e uma atmosfera opressora.
-            Exemplo: "Berserk" de Kentaro Miura.<br><a href="https://en.wikipedia.org/wiki/Berserk_(manga)" target="_blank">
-            <img src="img/berserk.jpg" alt="Berserk" width="150">
-        </a></li>
+            Exemplo: "Berserk" de Kentaro Miura.<br><a href="https://en.wikipedia.org/wiki/Berserk_(manga)"
+                target="_blank">
+                <img src="img/berserk.jpg" alt="Berserk" width="150">
+            </a></li>
     </ol>
     <p>Lembrando que esses não são todos os subgêneros, mas representam alguns dos mais conhecidos.</p>
     <hr>
-    <table id="tabela">
+    <table>
         <caption>Exemplos de obras de cada Subgênero</caption>
         <thead>
             <tr>
-                <th>Subgênero</th>
-                <th>Obras</th>
+                <th class="cinza">Subgênero</th>
+                <th class="cinza">Obras</th>
             </tr>
         </thead>
         <tbody>
@@ -115,13 +122,13 @@
     <form id="questionario">
         <fieldset>
             <legend>Questionário pro clube do livro</legend>
-            <label for="nome">Qual é o seu nome?</label>
+            <label for="nome" class="cinza">Qual é o seu nome?</label>
             <input type="text" id="nome" name="nome" required>
             <br><br>
-            <label for="email">E-mail para contato:</label>
+            <label for="email" class="cinza">E-mail para contato:</label>
             <input type="email" id="email" name="email" required>
             <br><br>
-            <label>Você gosta mais de Alta ou Baixa Fantasia?</label>
+            <label class="cinza">Você gosta mais de Alta ou Baixa Fantasia?</label>
             <input type="radio" id="alta" name="fanfav" value="alta">
             <label for="alta">Alta Fantasia</label>
             <input type="radio" id="baixa" name="fanfav" value="baixa">
